@@ -3,7 +3,6 @@ import http from "http";
 import cors from "cors";
 import { Server } from "socket.io";
 
-dotenv.config();
 
 const port = 4000;
 const client_url = ["http://localhost:3000", "https://delightful-duckanoo-753a7d.netlify.app"]
