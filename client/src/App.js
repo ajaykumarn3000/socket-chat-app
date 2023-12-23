@@ -3,7 +3,7 @@ import "./App.css";
 import io from "socket.io-client";
 import Chat from "./Chat.js";
 
-const socket = io.connect("http://localhost:4000/");
+const socket = io.connect("https://socket-chat-api-8zyl.onrender.com");
 
 
 function App() {
