@@ -5,7 +5,7 @@ import { Server } from "socket.io";
 
 
 const port = 4000;
-const client_url = ["http://localhost:3000", "https://chatapp-by-ajaykumar.netlify.app/"]
+const client_url = ["http://localhost:3000", "https://chatapp-by-ajaykumar.netlify.app"]
 
 const app = express();
 const server = http.createServer(app);
